@@ -4,7 +4,7 @@ import java.sql.Connection;
 
 public class MyConnection {
 	
-	private Connection connection;
+	private Connection connection = null;
 	
 	public MyConnection() {
 	}
